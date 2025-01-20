@@ -49,6 +49,31 @@
     text-align: center;
 }
 
+/* Resume Styling */
+
+.resume-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.resume-section img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.resume-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.resume-section p {
+    font-size:  1.1rem;
+    margin: 0.5rem 0;
+}
+
 /* Kevin's Resume Section */
 .kevin {
     text-align: center;
