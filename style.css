@@ -143,3 +143,27 @@
     margin: 0.5rem 0;
 
 }
+/* Kevin's Resume Section */
+.mac {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.mac img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.mac h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mac p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+
+}
