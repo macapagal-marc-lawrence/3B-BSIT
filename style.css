@@ -120,3 +120,26 @@
     margin: 0.5rem 0;
 
 }
+
+/* Cris Gabriel's Resume Section */
+
+.cris{
+    text-align: center;
+    margin-top: 2rem;
+}
+.cris img.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.cris h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.cris p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+
+}
