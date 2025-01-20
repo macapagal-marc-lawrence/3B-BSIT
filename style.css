@@ -73,3 +73,26 @@
     margin: 0.5rem 0;
 
 }
+
+/*Charles Resume Section*/
+
+.charles{
+    text-align: center;
+    margin-top: 2rem;
+}
+.charles img.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.charles h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.charles p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+
+}
