@@ -96,3 +96,27 @@
     margin: 0.5rem 0;
 
 }
+/* John Eric's Resume Section */
+.eric {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.eric img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.eric h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.eric p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+
+}
