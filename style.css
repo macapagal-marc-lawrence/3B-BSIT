@@ -203,6 +203,36 @@ body {
     margin: 0.5rem 0;
 
 }
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+}
+.header h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+
+}
+.charles{
+text-align: center;
+margin-top: 2rem;
+}
+
+.charles  img.profile-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.charles h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
 /* John Eric's Resume Section */
 .eric {
     text-align: center;
@@ -389,3 +419,7 @@ footer {
 .member a.member-name:hover {
     color: #388E3C;
 }
+
+
+
+
