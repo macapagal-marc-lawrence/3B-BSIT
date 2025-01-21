@@ -258,6 +258,36 @@ margin-top: 2rem;
 
 }
 
+/* Eric Resume Section */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.Eric {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.Eric img.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
+.Eric h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
 /* Cris Gabriel's Resume Section */
 
 .navbar {
