@@ -200,25 +200,87 @@ body {
 
 /* Cris Gabriel's Resume Section */
 
-.cris{
+.navbar {
+    background-color: #4CAF50;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #eee;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.cris {
     text-align: center;
     margin-top: 2rem;
 }
-.cris img.profile-img{
+
+.cris img.profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+
 .cris h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+section {
+    padding: 1rem 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
     margin-bottom: 1rem;
 }
-.cris p {
-    font-size: 1.1rem;
-    margin: 0.5rem 0;
 
+section ul {
+    list-style: disc;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #4CAF50;
+    color: white;
+    margin-top: 2rem;
 }
 /* Kevin's Resume Section */
 .mac {
