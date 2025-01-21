@@ -233,6 +233,7 @@ body {
     transition: color 0.3s ease;
 }
 
+
 .member a.member-name:hover {
     color: #388E3C;
 }
