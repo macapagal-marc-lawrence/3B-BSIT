@@ -93,19 +93,20 @@ body {
     text-align: center;
     margin-top: 2rem;
     padding: 20px;
-    background: #f7f9fb;
+    background: linear-gradient(135deg, #f7f9fb, #dfe6e9);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, background 0.3s ease-in-out;
 }
 
 .kevin:hover {
     transform: scale(1.05);
+    background: linear-gradient(135deg, #dfe6e9, #ecf0f1);
 }
 
 .kevin img.profile-img {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -113,22 +114,43 @@ body {
 }
 
 .kevin h2 {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 1rem;
     color: #2980b9;
+    font-weight: bold;
 }
 
 .kevin p {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 0.5rem 0;
-    color: #34495e;
+    color: #2c3e50;
+    line-height: 1.6;
 
     
 }
 .kevin p strong {
     color: #27ae60;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
+/* Additional Button Styling */
+.kevin .contact-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.kevin .contact-button:hover {
+    background-color: #16a085;
+}
 /*Charles Resume Section*/
 
 .charles{
