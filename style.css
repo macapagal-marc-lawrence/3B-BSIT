@@ -386,21 +386,28 @@ footer {
 
 .member {
     text-align: center;
-    max-width: 150px; /* Limit width per member card */
+    max-width: 150px; 
 }
 
 /* Profile Image */
 .member img.profile-img {
     width: 150px;
     height: 150px;
-    border-radius: 50%; /* Circular images */
-    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 50%; 
+    object-fit: cover; 
     margin-bottom: 0.5rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Clickable Name Styling */
+.member img.profile-img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+    cursor: pointer; 
+}
+
+
 .member a.member-name {
-    display: block; /* Force name on a new line */
+    display: block; 
     font-size: 1.1rem;
     font-weight: 500;
     color: #4CAF50;
