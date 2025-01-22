@@ -140,7 +140,7 @@
         margin-top: 15px;
         padding: 10px 20px;
         font-size: 1rem;
-        background-color: #1abc9c;
+        background-color: #657b77;
         color: #ffffff;
         border: none;
         border-radius: 25px;
@@ -149,7 +149,7 @@
     }
 
     .kevin .contact-button:hover {
-        background-color: #16a085;
+        background-color: #445350;
     }
 
     /* Kevin's Resume Section */
