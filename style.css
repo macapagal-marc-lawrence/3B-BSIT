@@ -110,26 +110,26 @@
         border-radius: 50%;
         object-fit: cover;
         margin-bottom: 20px;
-        border: 4px solid #1abc9c;
+        border: none;
     }
 
     .kevin h2 {
         font-size: 2.2rem;
         margin-bottom: 1rem;
-        color: #2980b9;
+        color: none;
         font-weight: bold;
     }
 
     .kevin p {
         font-size: 1.2rem;
         margin: 0.5rem 0;
-        color: #2c3e50;
+        color: none;
         line-height: 1.6;
 
         
     }
     .kevin p strong {
-        color: #27ae60;
+        color: #84998c;
         font-weight: 600;
         text-transform: capitalize;
     }
